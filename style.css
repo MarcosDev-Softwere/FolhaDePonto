@@ -1,0 +1,61 @@
+/* Global body styling */
+body { 
+    font-family: Arial, sans-serif; /* Sets a clean, widely supported font */
+    background-color: #f4f4f4;      /* Light gray background for readability */
+    padding: 20px;                  /* Adds spacing around the page content */
+}
+
+/* Main container styling */
+.container { 
+    max-width: 600px;               /* Restricts content width for better layout */
+    margin: auto;                   /* Centers the container horizontally */
+    background: white;              /* White background for contrast */
+    padding: 20px;                  /* Internal spacing */
+    border-radius: 8px;             /* Rounded corners for modern look */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styling */
+h2 { 
+    text-align: center;             /* Centers the heading text */
+    background-color: #000;         /* Black background */
+    color: #fff;                    /* White text for contrast */
+    padding: 10px;                  /* Internal spacing */
+    margin-top: 0;                  /* Removes default top margin */
+}
+
+/* Search input styling */
+#inputBusca { 
+    width: 100%;                    /* Full width input field */
+    padding: 12px;                  /* Comfortable spacing inside input */
+    margin-bottom: 20px;            /* Space below input */
+    border: 1px solid #ddd;         /* Light gray border */
+    border-radius: 4px;             /* Slightly rounded corners */
+    box-sizing: border-box;         /* Ensures padding doesn’t affect width */
+    font-size: 16px;                /* Readable font size */
+}
+
+/* Table styling */
+table { 
+    width: 100%;                    /* Table spans full container width */
+    border-collapse: collapse;      /* Removes gaps between table cells */
+}
+
+/* Table header styling */
+th { 
+    background-color: #ffff00;      /* Yellow background for emphasis */
+    color: #000;                    /* Black text for readability */
+    text-align: left;               /* Aligns header text to the left */
+    padding: 10px;                  /* Internal spacing */
+}
+
+/* Table cell styling */
+td { 
+    padding: 10px;                  /* Internal spacing for readability */
+    border-bottom: 1px solid #eee;  /* Light border separating rows */
+}
+
+/* Row hover effect */
+tr:hover { 
+    background-color: #f9f9f9;      /* Subtle highlight when hovering */
+}

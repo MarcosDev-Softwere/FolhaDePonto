@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="pt-br"> <!-- Sets the language of the document to Brazilian Portuguese -->
+<head>
+    <meta charset="UTF-8"> <!-- Ensures proper character encoding (UTF-8 supports accents and symbols) -->
+    <title>Busca de Funcionários - Janeiro 2026</title> <!-- Defines the page title shown in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Links external CSS file for styling (separation of concerns) -->
+</head>
+<body>
+    <div class="container"> <!-- Main container for layout and styling -->
+        <h2>Fechamento da Folha - Janeiro 2026</h2> <!-- Page heading describing the purpose -->
+
+        <!-- Search input field for filtering employees dynamically -->
+        <input 
+            type="text" 
+            id="inputBusca" 
+            placeholder="🔍 Digite o nome do funcionário..." 
+            onkeyup="filtrarFuncionarios()"> <!-- Inline event handler triggers filtering function on key press -->
+
+        <!-- Employee table structure -->
+        <table id="tabelaFuncionarios"> <!-- Table identified by ID for JavaScript manipulation -->
+            <thead>
+                <tr>
+                    <th>Nome</th> <!-- Column header for employee name -->
+                    <th>Dias/Observação</th> <!-- Column header for days/notes -->
+                </tr>
+            </thead>
+            <tbody id="corpoTabela">
+                <!-- Table body will be dynamically populated via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="./index.js"></script> <!-- External JavaScript file for business logic (filtering, dynamic updates) -->
+</body>
+</html>
